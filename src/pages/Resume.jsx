@@ -1,4 +1,4 @@
-
+import balajiResume from "../assets/pdf/Resume (2) (1).pdf";
 export default function Resume() {
   return (
     <section className="py-16 px-8 md:px-20 bg-white">
@@ -119,7 +119,7 @@ export default function Resume() {
       {/* Download Resume Button */}
       <div className="mt-12 text-center">
         <a
-          href="src/assets/pdf/Resume (2) (1).pdf"
+          href={balajiResume}
           download
           className="inline-block bg-blue-600 text-white font-medium px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition-all"
         >
