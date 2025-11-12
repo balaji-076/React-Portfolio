@@ -1,11 +1,13 @@
 import TextType from "../components/react-bits/TextType";
+import developerImg from "../assets/images/developer.webp";
+
 
 function Home() {
   
   return (
     <div className="min-h-screen lg:w-full bg-cover bg-center flex items-center px-10 relative"
       style={{
-        backgroundImage: `url(src/assets/images/developer.webp)`
+        backgroundImage: `url(${developerImg})`,
       }}
     >
       <div className="absolute bg-black/40"></div>

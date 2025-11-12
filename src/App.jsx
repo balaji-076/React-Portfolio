@@ -1,4 +1,3 @@
-import { Routes, Route } from 'react-router-dom'
 import Sidebar from './components/react-bits/Sidebar'
 import Home from './pages/Home'
 import About from './pages/About'

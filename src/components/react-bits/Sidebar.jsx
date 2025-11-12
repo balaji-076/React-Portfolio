@@ -2,6 +2,7 @@ import { useState } from "react";
 import SidebarItem from "./SidebarItem";
 import { FaXTwitter, FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa6";
 import { FaSkype, FaHome, FaUser, FaEnvelope, FaRegFileAlt } from "react-icons/fa";
+import khabibImg from "../../assets/images/khabib.jpeg";
 
 function Sidebar({closeSidebar}) {
   const [active, setActive] = useState("Home");
@@ -12,7 +13,7 @@ function Sidebar({closeSidebar}) {
       {/* Profile Section */}
       <div className="flex flex-col items-center gap-4">
         <div className="w-28 h-28 rounded-full overflow-hidden border-8 border-gray-800">
-          <img src="src/assets/images/khabib.jpeg" alt="profile" className="w-full h-full object-cover"/>
+          <img src={khabibImg} alt="profile" className="w-full h-full object-cover"/>
         </div>
         <h2 className="text-xl font-semibold">Balaji R</h2>
         <div className="flex gap-4 mt-2">

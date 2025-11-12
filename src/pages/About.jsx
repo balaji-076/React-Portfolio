@@ -1,4 +1,4 @@
-import React from "react";
+import professionalMenImg from "../assets/images/professionalMen.avif";
 
 export default function About() {
     const skills = [
@@ -28,7 +28,7 @@ export default function About() {
         {/* Left Side - Image */}
         <div className="flex-shrink-0 w-full lg:w-1/3 md:w-1/2">
           <img
-            src="src/assets/images/professionalMen.avif"
+            src={professionalMenImg}
             alt="Profile"
             className="rounded-lg shadow-lg object-cover w-full h-[400px]"
           />
