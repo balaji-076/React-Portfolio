@@ -12,10 +12,10 @@ function App() {
   return (
     <div className='w-[100%] flex text-white'>
       <button
-        className="block lg:hidden fixed top-4 left-3 z-50 bg-[#040b14] p-3 rounded-md shadow-md"
+        className={`"block lg:hidden fixed z-50 bg-[#040b14] p-1.5 rounded-md shadow-md duration-300 ${isOpen ? "top-4 md:ml-[55%] ml-[58%]" : 'top-4 right-3'}`}
         onClick={() => setIsOpen(!isOpen)}
       >
-        {isOpen ? <FaTimes size={20} /> : <FaBars size={20} />}
+        {isOpen ? <FaTimes size={15} /> : <FaBars size={15} />}
       </button>
 
       {/* Sidebar (separate from button) */}
@@ -31,18 +31,20 @@ function App() {
         {/* <Sidebar /> */}
       {/* </div> */}
       <div className="flex flex-col lg:w-[84%] w-full" >
-        <section id="home">
-          <Home />
-        </section>
-        <section id="about">
-          <About />
-        </section>
-        <section id="resume">
-          <Resume />
-        </section>
-        <section id="contact">
-          <Contact />
-        </section>
+        <div className="inset-0" onClick={() => setIsOpen(false)} >
+          <section id="home">
+            <Home />
+          </section>
+          <section id="about">
+            <About />
+          </section>
+          <section id="resume">
+            <Resume />
+          </section>
+          <section id="contact">
+            <Contact />
+          </section>
+        </div>
       </div>
     </div>
   )

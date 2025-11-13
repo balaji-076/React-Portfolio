@@ -6,7 +6,7 @@ function SidebarItem({ to, icon, label, active, setActive,closeSidebar }) {
 
     const el = document.getElementById(to);
     el?.scrollIntoView({ behavior: "smooth" });
-        if (window.innerWidth < 1024 && closeSidebar) {
+    if (window.innerWidth < 1024 && closeSidebar) {
       closeSidebar();
     }
 
