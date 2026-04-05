@@ -17,7 +17,7 @@ function Home() {
 
         {/* Typing text */}
         <div className="lg:text-2xl text-xl pl-[5px] font-semibold">
-          <p>
+          <span>
             <span className="border-r-2 border-white pr-1">
               I'm{" "}
               <TextType 
@@ -28,7 +28,7 @@ function Home() {
                 cursorCharacter="|"
               />
             </span>
-          </p>
+          </span>
           {/* Blue underline */}
           <div className="w-[100px] h-1 bg-blue-500 mt-2 ml-[25px]"></div>
         </div>  

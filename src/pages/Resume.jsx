@@ -69,45 +69,45 @@ export default function Resume() {
           <h3 className="text-xl font-semibold mb-4">Professional Experience</h3>
           <div className="border-l-2 border-blue-500 pl-6 space-y-6">
             <div>
-              <h4 className="font-semibold text-gray-800">Frontend & Backend Developer</h4>
-              <p className="text-sm text-gray-500">2025 - Present</p>
+              <h4 className="font-semibold text-gray-800">Software Engineer</h4>
+              <p className="text-sm text-gray-500">Apr 2024 - July 2025</p>
               <p className="italic text-gray-600">Pranion Technology Ventures Pvt. Ltd.</p>
-              <ul className="list-disc list-inside text-gray-600 text-sm mt-1 space-y-1">
+              <ul className="list-disc pl-3 list-outside text-gray-600 text-sm mt-1 space-y-1">
                 <li>
-                  Developed and maintained dynamic web modules using Angular,
-                  TypeScript, and Laravel.
+                  Developed and maintained dynamic web modules using Angular, TypeScript, and Laravel.
                 </li>
                 <li>
-                  Designed RESTful APIs and optimized backend logic with
-                  PostgreSQL and PHP.
+                  Designed and integrated RESTful APIs, optimizing backend performance using PostgreSQL and PHP.
                 </li>
                 <li>
-                  Collaborated with cross-functional teams to improve UI
-                  performance and code quality.
+                  Built and improved UI components with Tailwind CSS, enhancing user experience and responsiveness.
                 </li>
                 <li>
-                  Worked on document management, tracking, and role-based access
-                  modules for enterprise applications.
+                  Worked on document management, tracking, and role-based access control modules for enterprise applications.
+                </li>
+                <li>
+                  Collaborated with cross-functional teams to improve application performance and code quality.
                 </li>
               </ul>
             </div>
 
             <div>
-              <h4 className="font-semibold text-gray-800">Training Period – Web Development</h4>
-              <p className="text-sm text-gray-500">Apr 2024 - Jun 2024</p>
-              <p className="italic text-gray-600">Pranion Technology Ventures Pvt. Ltd.</p>
+              <h4 className="font-semibold text-gray-800">
+                Software Developer
+              </h4>
+              <p className="text-sm text-gray-500">Feb 2026 - Present</p>
+              <p className="italic text-gray-600">
+                National Informatics Centre (via Quantum Asia Pvt. Ltd)
+              </p>
               <ul className="list-disc list-inside text-gray-600 text-sm mt-1 space-y-1">
                 <li>
-                  Assisted in frontend development using PHP and Tailwind
-                  CSS.
+                  Working on the ITMS (Intelligent Traffic Management System) project using Laravel framework.
                 </li>
                 <li>
-                  Implemented API integrations and UI improvements for live
-                  applications.
+                  Developed and maintained modules for a Common File Manager system.
                 </li>
                 <li>
-                  Gained practical experience in full-stack development and
-                  version control systems.
+                  Implemented document generation features for dynamic and automated report handling.
                 </li>
               </ul>
             </div>
@@ -117,7 +117,7 @@ export default function Resume() {
       </div>
       
       {/* Download Resume Button */}
-      <div className="mt-12 text-center">
+      {/* <div className="mt-12 text-center">
         <a
           href={balajiResume}
           download
@@ -125,7 +125,7 @@ export default function Resume() {
         >
           Download Resume
         </a>
-      </div>
+      </div> */}
     </section>
   );
 }

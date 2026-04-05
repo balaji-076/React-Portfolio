@@ -1,6 +1,6 @@
 import { useState } from "react";
 import SidebarItem from "./SidebarItem";
-import { FaXTwitter, FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa6";
+import { FaXTwitter, FaFacebookF, FaInstagram, FaLinkedinIn, FaCode } from "react-icons/fa6";
 import { FaSkype, FaHome, FaUser, FaEnvelope, FaRegFileAlt } from "react-icons/fa";
 import khabibImg from "../../assets/images/khabib.jpeg";
 
@@ -45,6 +45,15 @@ function Sidebar({closeSidebar}) {
           setActive={setActive}
           closeSidebar={closeSidebar}
         />
+
+        {/* <SidebarItem
+          to="projects"
+          label="Projects"
+          icon={<FaCode size={20} />}
+          active={active}
+          setActive={setActive}
+          closeSidebar={closeSidebar}
+        /> */}
 
         <SidebarItem
           to="resume"

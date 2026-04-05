@@ -3,6 +3,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Resume from './pages/Resume'
+import Projects from './pages/Projects'
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from 'react'
 
@@ -38,6 +39,9 @@ function App() {
           <section id="about">
             <About />
           </section>
+          {/* <section id="projects">
+            <Projects />
+          </section> */}
           <section id="resume">
             <Resume />
           </section>
